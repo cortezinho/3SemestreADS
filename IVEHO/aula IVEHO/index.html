@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema de Controle e Cálculos Industriais</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <style></style>
+  </head>
+  <body
+    background="https://static.vecteezy.com/ti/vetor-gratis/p1/2184723-tecnologia-com-fundo-azul-escuro-vetor.jpg"
+  >
+    <div class="container">
+      <h2>Avaliação de Fornecedores</h2>
+      <p>Insira as notas de 0 a 10:</p>
+
+      <label>Preço:</label>
+      <input
+        type="range"
+        id="preco"
+        min="0"
+        max="10"
+        step="0.1"
+        value="5"
+        oninput="atualizarValor('preco')"
+      />
+      <output id="valorPreco">5</output>
+      <br />
+
+      <label>Qualidade:</label>
+      <input
+        type="range"
+        id="qualidade"
+        min="0"
+        max="10"
+        step="0.1"
+        value="5"
+        oninput="atualizarValor('qualidade')"
+      />
+      <output id="valorQualidade">5</output>
+      <br />
+
+      <label>Tempo de Entrega:</label>
+      <input
+        type="range"
+        id="tempo"
+        min="0"
+        max="10"
+        step="0.1"
+        value="5"
+        oninput="atualizarValor('tempo')"
+      />
+      <output id="valorTempo">5</output>
+      <br />
+
+      <button onclick="calcularMedia()">Calcular Média Ponderada</button>
+      <h3>Resultado: <span id="resultado"></span></h3>
+    </div>
+
+    <div class="container">
+      <h2>Planejamento Financeiro - Juros Compostos</h2>
+      <p>Insira os valores para calcular o montante final:</p>
+      <label>Valor Inicial (P):</label>
+      <input type="number" id="capital" min="0" step="0.01" />
+      <br />
+      <label>Taxa de Juros (%) ao ano:</label>
+      <input type="number" id="taxa" min="0" step="0.01" />
+      <br />
+      <label>Número de Períodos (anos):</label>
+      <input type="number" id="periodos" min="1" />
+      <br />
+      <button onclick="calcularMontante()">Calcular Montante</button>
+      <h3>Montante Final: R$ <span id="resultado1"></span></h3>
+    </div>
+
+    <div class="container">
+      <h2>Controle de Sensores Industriais</h2>
+      <p>Insira a intensidade de luz (0 a 255):</p>
+      <label>Intensidade de Luz (Decimal):</label>
+      <input type="number" id="decimal" min="0" max="255" />
+      <br />
+      <button onclick="converterParaBinario()">Converter para Binário</button>
+      <h3>Valor Binário (8 bits): <span id="resultado2"></span></h3>
+    </div>
+
+    <div class="container">
+      <h2>Conversor de Temperatura</h2>
+      <input type="number" id="inputTemp" placeholder="Digite a temperatura" />
+      <select id="conversionType">
+        <option value="cToF">Celsius para Fahrenheit</option>
+        <option value="cToK">Celsius para Kelvin</option>
+        <option value="fToC">Fahrenheit para Celsius</option>
+        <option value="kToC">Kelvin para Celsius</option>
+      </select>
+      <button onclick="convertTemperature()">Converter</button>
+      <h3 id="result"></h3>
+    </div>
+
+    <div class="container">
+      <h2>Calculadora de Resistência Equivalente</h2>
+      <input
+        type="text"
+        id="inputResistencias"
+        placeholder="Digite as resistências separadas por vírgula"
+      />
+      <select id="circuitType">
+        <option value="serie">Circuito em Série</option>
+        <option value="paralelo">Circuito em Paralelo</option>
+      </select>
+      <button onclick="calcularResistencia()">Calcular</button>
+      <h3 id="resultado9"></h3>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
