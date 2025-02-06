@@ -8,13 +8,21 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   </head>
   <body>
+    <br><br><br><br><br><br>
     <div class="container">
       <h1>Monitoramento de Sensores</h1>
       <p><strong>Temperatura:</strong> <span id="temp">--</span> °C</p>
       <p><strong>Umidade:</strong> <span id="hum">--</span> %</p>
       <p><strong>Pressão:</strong> <span id="pres">--</span> hPa</p>
+      <p><strong>Pressão:</strong> <span id="agua">--</span> L</p>
+      <p><strong>Pressão:</strong> <span id="gas">--</span> Volume</p>
       <canvas id="sensorChart"></canvas>
     </div>
+    <br><br>
+    <div style="margin: 10px;">
+        <button id="toggleButton" style="padding: 10px 20px; font-size: 16px;">Pausar</button>
+      </div>
+      
     <script src="js/main.js"></script>
     <!-- Importa o JavaScript -->
   </body>

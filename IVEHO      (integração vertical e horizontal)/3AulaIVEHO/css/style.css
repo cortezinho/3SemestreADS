@@ -4,7 +4,7 @@ body {
   background-color: #f4f4f4;
 }
 .container {
-  max-width: 600px;
+  max-width: 700px;
   margin: auto;
   padding: 20px;
   background: white;
@@ -13,4 +13,11 @@ body {
 }
 canvas {
   max-width: 100%;
+}
+button{
+  width: 20%;
+  background-color: rgb(245, 0, 0);
+  border: none;
+  border-radius: 5px;
+  color: white;
 }

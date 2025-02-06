@@ -12,9 +12,11 @@ CORS(app)
 # Função para simular os dados dos sensores
 def get_sensor_data():
     return {
-        "temperatura": round(random.uniform(20, 80), 2),  # Gera valores aleatórios de temperatura entre 20°C e 80°C
-        "umidade": round(random.uniform(30, 90), 2),      # Gera valores aleatórios de umidade entre 30% e 90%
-        "pressao": round(random.uniform(900, 1100), 2)    # Gera valores aleatórios de pressão entre 900 hPa e 1100 hPa
+        "temperatura": round(random.uniform(20, 150), 2),  # Gera valores aleatórios de temperatura entre 20°C e 80°C
+        "umidade": round(random.uniform(30, 190), 2),      # Gera valores aleatórios de umidade entre 30% e 90%
+        "pressao": round(random.uniform(900, 1100), 2),   # Gera valores aleatórios de pressão entre 900 hPa e 1100 hPa
+        "agua": round(random.uniform(100, 500), 2),
+        "gas": round(random.uniform(300, 900), 2)
     }
 
 # Define a rota da API que responderá com os dados dos sensores em formato JSON
