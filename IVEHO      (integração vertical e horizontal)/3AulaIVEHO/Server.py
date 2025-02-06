@@ -1,0 +1,27 @@
+# importa as bibliotecas necessárias
+from flask import Flask, jsonify
+from flask_cors import CORS
+import random  # Corrigido: Adicionando a importação de random
+
+# cria a aplicação Flask
+app = Flask(__name__)
+
+# Habilita CORS para permitir que o frontend (JavaScript) faça requisições ao servidor Flask
+CORS(app)
+
+# Função para simular os dados dos sensores
+def get_sensor_data():
+    return {
+        "temperatura": round(random.uniform(20, 80), 2),  # Gera valores aleatórios de temperatura entre 20°C e 80°C
+        "umidade": round(random.uniform(30, 90), 2),      # Gera valores aleatórios de umidade entre 30% e 90%
+        "pressao": round(random.uniform(900, 1100), 2)    # Gera valores aleatórios de pressão entre 900 hPa e 1100 hPa
+    }
+
+# Define a rota da API que responderá com os dados dos sensores em formato JSON
+@app.route('/sensores', methods=['GET'])  # A rota '/sensores' responde apenas a requisições GET
+def sensores():
+    return jsonify(get_sensor_data())  # Retorna os dados simulados dos sensores em formato JSON
+
+# Executa o servidor Flask apenas se este arquivo for executado
+if __name__ == '__main__':  # Corrigido o erro de digitação
+    app.run(debug=True)  # Inicia o servidor Flask em modo de depuração (debug=True) para facilitar o desenvolvimento
