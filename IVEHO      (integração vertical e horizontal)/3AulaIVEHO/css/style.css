@@ -21,3 +21,11 @@ button{
   border-radius: 5px;
   color: white;
 }
+.sensor-log{
+  border: none;
+  border-radius: 5px;
+}
+.log-entry{
+  border: none;
+  border-radius: 5px;
+}
