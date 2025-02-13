@@ -1,0 +1,10 @@
+C:\Users\Aluno\Desktop\IFACI\C#\aula01\EX_1\bin\Debug\EX_1.exe.config
+C:\Users\Aluno\Desktop\IFACI\C#\aula01\EX_1\bin\Debug\EX_1.exe
+C:\Users\Aluno\Desktop\IFACI\C#\aula01\EX_1\bin\Debug\EX_1.pdb
+C:\Users\Aluno\Desktop\IFACI\C#\aula01\EX_1\obj\Debug\EX_1.csproj.AssemblyReference.cache
+C:\Users\Aluno\Desktop\IFACI\C#\aula01\EX_1\obj\Debug\EX_1.Form1.resources
+C:\Users\Aluno\Desktop\IFACI\C#\aula01\EX_1\obj\Debug\EX_1.Properties.Resources.resources
+C:\Users\Aluno\Desktop\IFACI\C#\aula01\EX_1\obj\Debug\EX_1.csproj.GenerateResource.cache
+C:\Users\Aluno\Desktop\IFACI\C#\aula01\EX_1\obj\Debug\EX_1.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Desktop\IFACI\C#\aula01\EX_1\obj\Debug\EX_1.exe
+C:\Users\Aluno\Desktop\IFACI\C#\aula01\EX_1\obj\Debug\EX_1.pdb
