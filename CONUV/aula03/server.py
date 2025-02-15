@@ -1,6 +1,5 @@
 import requests
 import random
-import csv
 import time  # time.sleep para adicionar um intervalo entre os envios
 
 API_KEY = "ESY3ORO7UBF9F0YQ"
