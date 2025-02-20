@@ -8,3 +8,13 @@ C:\Users\Aluno\Desktop\IFACI\C#\aula01\EX_2\obj\Debug\EX_2.csproj.GenerateResour
 C:\Users\Aluno\Desktop\IFACI\C#\aula01\EX_2\obj\Debug\EX_2.csproj.CoreCompileInputs.cache
 C:\Users\Aluno\Desktop\IFACI\C#\aula01\EX_2\obj\Debug\EX_2.exe
 C:\Users\Aluno\Desktop\IFACI\C#\aula01\EX_2\obj\Debug\EX_2.pdb
+C:\Users\Aluno\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula01\EX_2\bin\Debug\EX_2.exe.config
+C:\Users\Aluno\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula01\EX_2\bin\Debug\EX_2.exe
+C:\Users\Aluno\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula01\EX_2\bin\Debug\EX_2.pdb
+C:\Users\Aluno\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula01\EX_2\obj\Debug\EX_2.csproj.AssemblyReference.cache
+C:\Users\Aluno\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula01\EX_2\obj\Debug\EX_2.Form1.resources
+C:\Users\Aluno\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula01\EX_2\obj\Debug\EX_2.Properties.Resources.resources
+C:\Users\Aluno\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula01\EX_2\obj\Debug\EX_2.csproj.GenerateResource.cache
+C:\Users\Aluno\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula01\EX_2\obj\Debug\EX_2.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula01\EX_2\obj\Debug\EX_2.exe
+C:\Users\Aluno\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula01\EX_2\obj\Debug\EX_2.pdb

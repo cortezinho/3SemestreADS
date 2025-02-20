@@ -26,8 +26,8 @@ namespace EX_2
         private void button1_Click(object sender, EventArgs e)
         {
             DialogResult bc;
-            MessageBoxButtons bot = MessageBoxButtons.OKCancel;
-            MessageBoxIcon icon = MessageBoxIcon.Asterisk;
+            MessageBoxButtons bot = MessageBoxButtons.YesNoCancel;
+            MessageBoxIcon icon = MessageBoxIcon.Error;
             MessageBoxDefaultButton bd = MessageBoxDefaultButton.Button1;
             bc = MessageBox.Show("Message\nBox","Infomação",bot,icon,bd);
 
