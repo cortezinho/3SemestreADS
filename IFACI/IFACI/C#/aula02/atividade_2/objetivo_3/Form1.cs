@@ -56,5 +56,12 @@ namespace objetivo_3
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             textBox1.Text = "DESLIGADO";
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            textBox1.Text = "Aguardando";
+            pictureBox1.Image = Image.FromFile("c:\\imagens\\Amarelo.bmp");
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+        }
     }
 }
