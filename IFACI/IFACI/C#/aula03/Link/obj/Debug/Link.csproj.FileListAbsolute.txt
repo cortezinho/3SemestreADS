@@ -1,0 +1,10 @@
+C:\Users\Aluno\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula03\Link\bin\Debug\Link.exe.config
+C:\Users\Aluno\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula03\Link\bin\Debug\Link.exe
+C:\Users\Aluno\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula03\Link\bin\Debug\Link.pdb
+C:\Users\Aluno\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula03\Link\obj\Debug\Link.csproj.AssemblyReference.cache
+C:\Users\Aluno\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula03\Link\obj\Debug\Link.Form1.resources
+C:\Users\Aluno\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula03\Link\obj\Debug\Link.Properties.Resources.resources
+C:\Users\Aluno\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula03\Link\obj\Debug\Link.csproj.GenerateResource.cache
+C:\Users\Aluno\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula03\Link\obj\Debug\Link.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula03\Link\obj\Debug\Link.exe
+C:\Users\Aluno\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula03\Link\obj\Debug\Link.pdb
