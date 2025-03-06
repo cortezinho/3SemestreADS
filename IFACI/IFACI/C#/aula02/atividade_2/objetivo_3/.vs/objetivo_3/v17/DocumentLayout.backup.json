@@ -40,7 +40,11 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\Aluno\\Desktop\\github\\3SemestreADS\\IFACI\\IFACI\\C#\\aula02\\atividade_2\\objetivo_3\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAD4AAABLAAAAAAAAAA==",
+<<<<<<< HEAD
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAACwAAAAAAAAAAAA3wDcAAABDAAAAAAAAAA==",
+>>>>>>> 5dc6ab11787589d248097cc4b01a01d973a86320
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T00:26:11.747Z",
               "EditorCaption": ""
