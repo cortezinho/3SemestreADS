@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace atividade03
 {
@@ -168,6 +169,45 @@ namespace atividade03
 
             pictureBox2.Image = Image.FromFile("c:\\imagens\\Semaforo.bmp");
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+
+            timer8.Enabled = false;
+        }
+
+        //Botão Desliga
+        private void button3_Click(object sender, EventArgs e)
+        {
+            //imagem rua
+            pictureBox1.Image = Image.FromFile("c:\\imagens\\Semaforo.bmp");
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+
+            //imagem avenida
+            pictureBox2.Image = Image.FromFile("c:\\imagens\\Semaforo.bmp");
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+
+            timer2.Enabled = false;
+            timer3.Enabled = false;
+            timer4.Enabled = false;
+            timer5.Enabled = false;
+            timer6.Enabled = false;
+            timer7.Enabled = false;
+            timer8.Enabled = false;
+        }
+
+        //Botão Sair
+        private void button4_Click(object sender, EventArgs e)
+        {
+            DialogResult bc;
+            MessageBoxButtons bot = MessageBoxButtons.YesNo;
+            MessageBoxIcon icon = MessageBoxIcon.Error;
+            MessageBoxDefaultButton bd = MessageBoxDefaultButton.Button1;
+            bc = MessageBox.Show("Certeza que\ndeseja sair?", "Infomação", bot, icon, bd);
+
+            switch (bc)
+            {
+                case DialogResult.Yes:
+                    Application.Exit();
+                    break;
+            }
         }
     }
 }
