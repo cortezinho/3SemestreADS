@@ -24,14 +24,14 @@ namespace atividade03
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            toolStripStatusLabel1.Text = DateTime.Now.ToLongDateString();
+            
 
             //imagem rua
-            pictureBox1.Image = Image.FromFile("c:\\imagens\\Semaforo.bmp");
+            pictureBox1.Image = Image.FromFile("c:\\imagens\\Semaforo.png");
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
 
             //imagem avenida
-            pictureBox2.Image = Image.FromFile("c:\\imagens\\Semaforo.bmp");
+            pictureBox2.Image = Image.FromFile("c:\\imagens\\Semaforo.png");
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
 
             timer2.Enabled = false;
@@ -55,6 +55,11 @@ namespace atividade03
             Process.Start("https://www.policiamilitar.sp.gov.br/");
         }
 
+        private void toolStripButton2_Click_1(object sender, EventArgs e)
+        {
+            Process.Start("https://www.corpodebombeiros.sp.gov.br/#/");
+        }
+
         //imagem rua
         private void pictureBox1_Click(object sender, EventArgs e)
         {
@@ -70,7 +75,7 @@ namespace atividade03
         //
         private void timer2_Tick(object sender, EventArgs e)
         {
-            pictureBox1.Image = Image.FromFile("c:\\imagens\\Amarelo.bmp");
+            pictureBox1.Image = Image.FromFile("c:\\imagens\\Amarelo.png");
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             timer3.Enabled = true;
             timer2.Enabled = false;
@@ -80,7 +85,7 @@ namespace atividade03
         private void timer3_Tick(object sender, EventArgs e)
         {
 
-            pictureBox1.Image = Image.FromFile("c:\\imagens\\Vermelho.bmp");
+            pictureBox1.Image = Image.FromFile("c:\\imagens\\Vermelho.png");
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             timer4.Enabled = true;
             timer3.Enabled = false;
@@ -90,7 +95,7 @@ namespace atividade03
         //
         private void timer4_Tick(object sender, EventArgs e)
         {
-            pictureBox1.Image = Image.FromFile("c:\\imagens\\Verde.bmp");
+            pictureBox1.Image = Image.FromFile("c:\\imagens\\Verde.png");
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             timer2.Enabled = true;
             timer4.Enabled = false;
@@ -101,7 +106,7 @@ namespace atividade03
         //
         private void timer5_Tick(object sender, EventArgs e)
         {
-            pictureBox2.Image = Image.FromFile("c:\\imagens\\Vermelho.bmp");
+            pictureBox2.Image = Image.FromFile("c:\\imagens\\Vermelho.png");
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             timer6.Enabled = true;
             timer5.Enabled = false;
@@ -110,7 +115,7 @@ namespace atividade03
         //
         private void timer6_Tick(object sender, EventArgs e)
         {
-            pictureBox2.Image = Image.FromFile("c:\\imagens\\Verde.bmp");
+            pictureBox2.Image = Image.FromFile("c:\\imagens\\Verde.png");
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             timer7.Enabled = true;
             timer6.Enabled = false;
@@ -119,7 +124,7 @@ namespace atividade03
         //
         private void timer7_Tick(object sender, EventArgs e)
         {
-            pictureBox2.Image = Image.FromFile("c:\\imagens\\Amarelo.bmp");
+            pictureBox2.Image = Image.FromFile("c:\\imagens\\Amarelo.png");
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             timer5.Enabled = true;
             timer7.Enabled = false;
@@ -133,10 +138,10 @@ namespace atividade03
         //Botão Liga
         private void button2_Click(object sender, EventArgs e)
         {
-            pictureBox1.Image = Image.FromFile("c:\\imagens\\Verde.bmp");
+            pictureBox1.Image = Image.FromFile("c:\\imagens\\Verde.png");
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
 
-            pictureBox2.Image = Image.FromFile("c:\\imagens\\Vermelho.bmp");
+            pictureBox2.Image = Image.FromFile("c:\\imagens\\Vermelho.png");
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
 
             timer2.Enabled = true;
@@ -146,10 +151,10 @@ namespace atividade03
         //Botão Emergencia
         private void button1_Click(object sender, EventArgs e)
         {
-            pictureBox1.Image = Image.FromFile("c:\\imagens\\Amarelo.bmp");
+            pictureBox1.Image = Image.FromFile("c:\\imagens\\Amarelo.png");
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
 
-            pictureBox2.Image = Image.FromFile("c:\\imagens\\Amarelo.bmp");
+            pictureBox2.Image = Image.FromFile("c:\\imagens\\Amarelo.png");
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
 
             timer2.Enabled = false;
@@ -164,10 +169,10 @@ namespace atividade03
 
         private void timer8_Tick(object sender, EventArgs e)
         {
-            pictureBox1.Image = Image.FromFile("c:\\imagens\\Semaforo.bmp");
+            pictureBox1.Image = Image.FromFile("c:\\imagens\\Semaforo.png");
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
 
-            pictureBox2.Image = Image.FromFile("c:\\imagens\\Semaforo.bmp");
+            pictureBox2.Image = Image.FromFile("c:\\imagens\\Semaforo.png");
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
 
             timer8.Enabled = false;
@@ -177,11 +182,11 @@ namespace atividade03
         private void button3_Click(object sender, EventArgs e)
         {
             //imagem rua
-            pictureBox1.Image = Image.FromFile("c:\\imagens\\Semaforo.bmp");
+            pictureBox1.Image = Image.FromFile("c:\\imagens\\Semaforo.png");
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
 
             //imagem avenida
-            pictureBox2.Image = Image.FromFile("c:\\imagens\\Semaforo.bmp");
+            pictureBox2.Image = Image.FromFile("c:\\imagens\\Semaforo.png");
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
 
             timer2.Enabled = false;
@@ -209,5 +214,7 @@ namespace atividade03
                     break;
             }
         }
+
+        
     }
 }

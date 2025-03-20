@@ -18,3 +18,13 @@ C:\Users\gabri\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula03\atividade03\obj
 C:\Users\gabri\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula03\atividade03\obj\Debug\atividade03.csproj.CoreCompileInputs.cache
 C:\Users\gabri\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula03\atividade03\obj\Debug\atividade03.exe
 C:\Users\gabri\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula03\atividade03\obj\Debug\atividade03.pdb
+C:\Users\Aluno\Desktop\Nova pasta\3SemestreADS\IFACI\IFACI\C#\aula03\atividade03\bin\Debug\atividade03.exe.config
+C:\Users\Aluno\Desktop\Nova pasta\3SemestreADS\IFACI\IFACI\C#\aula03\atividade03\bin\Debug\atividade03.exe
+C:\Users\Aluno\Desktop\Nova pasta\3SemestreADS\IFACI\IFACI\C#\aula03\atividade03\bin\Debug\atividade03.pdb
+C:\Users\Aluno\Desktop\Nova pasta\3SemestreADS\IFACI\IFACI\C#\aula03\atividade03\obj\Debug\atividade03.csproj.AssemblyReference.cache
+C:\Users\Aluno\Desktop\Nova pasta\3SemestreADS\IFACI\IFACI\C#\aula03\atividade03\obj\Debug\atividade03.Form1.resources
+C:\Users\Aluno\Desktop\Nova pasta\3SemestreADS\IFACI\IFACI\C#\aula03\atividade03\obj\Debug\atividade03.Properties.Resources.resources
+C:\Users\Aluno\Desktop\Nova pasta\3SemestreADS\IFACI\IFACI\C#\aula03\atividade03\obj\Debug\atividade03.csproj.GenerateResource.cache
+C:\Users\Aluno\Desktop\Nova pasta\3SemestreADS\IFACI\IFACI\C#\aula03\atividade03\obj\Debug\atividade03.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Desktop\Nova pasta\3SemestreADS\IFACI\IFACI\C#\aula03\atividade03\obj\Debug\atividade03.exe
+C:\Users\Aluno\Desktop\Nova pasta\3SemestreADS\IFACI\IFACI\C#\aula03\atividade03\obj\Debug\atividade03.pdb
