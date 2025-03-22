@@ -4,7 +4,7 @@ metadata:
   name: nginx-deployment
   namespace: default
 spec:
-  replicas: 3
+  replicas: 4
   selector:
     matchLabels:
       app: nginx
@@ -25,3 +25,8 @@ spec:
       - name: meu-site-volume
         configMap:
           name: meu-site
+      containers:
+      - name: nginx
+        image: nginx:latest
+        ports:
+        - containerPort: 80
