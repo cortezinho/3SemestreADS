@@ -107,5 +107,17 @@
   <ItemGroup>
     <None Include="Resources\dataHoraFundo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundoE.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundoE1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundoE2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundoE3.bmp" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
