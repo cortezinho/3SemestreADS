@@ -112,27 +112,25 @@ namespace atividade05
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
             if (serialPort1.IsOpen == true) //se a porta está aberta
-            {
-                serialPort1.Close();       //fecha a porta
-            }               
+                 serialPort1.Close();       //fecha a porta
+                           
         }
 
         //botão enviar
         private void button2_Click(object sender, EventArgs e)
         {
             if (serialPort1.IsOpen == true)
-            {
                 serialPort1.Write(textBox1.Text);
-            }
+            
         }
 
         private void serialPort1_DataReceived(object sender, SerialDataReceivedEventArgs e)
         {
             RxString = serialPort1.ReadExisting();
-            this.Invoke(new EventHandler(trataDadosRecebido));
+            this.Invoke(new EventHandler(trataDadoRecebido));
         }
 
-        private void trataDadosRecebido(object sender, EventArgs e)
+        private void trataDadoRecebido(object sender, EventArgs e)
         {
             textBox2.AppendText(RxString);
         }
