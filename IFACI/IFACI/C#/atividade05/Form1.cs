@@ -120,8 +120,11 @@ namespace atividade05
         private void button2_Click(object sender, EventArgs e)
         {
             if (serialPort1.IsOpen == true)
-                serialPort1.Write(textBox1.Text);
             
+                serialPort1.Write(textBox1.Text);
+                
+
+
         }
 
         private void serialPort1_DataReceived(object sender, SerialDataReceivedEventArgs e)
