@@ -8,3 +8,13 @@ C:\Users\Aluno\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula04\Exemplo_04\obj\
 C:\Users\Aluno\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula04\Exemplo_04\obj\Debug\Exemplo_04.csproj.CoreCompileInputs.cache
 C:\Users\Aluno\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula04\Exemplo_04\obj\Debug\Exemplo_04.exe
 C:\Users\Aluno\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula04\Exemplo_04\obj\Debug\Exemplo_04.pdb
+C:\Users\gabri\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula04\Exemplo_04\bin\Debug\Exemplo_04.exe.config
+C:\Users\gabri\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula04\Exemplo_04\bin\Debug\Exemplo_04.exe
+C:\Users\gabri\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula04\Exemplo_04\bin\Debug\Exemplo_04.pdb
+C:\Users\gabri\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula04\Exemplo_04\obj\Debug\Exemplo_04.csproj.AssemblyReference.cache
+C:\Users\gabri\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula04\Exemplo_04\obj\Debug\Exemplo_04.Form1.resources
+C:\Users\gabri\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula04\Exemplo_04\obj\Debug\Exemplo_04.Properties.Resources.resources
+C:\Users\gabri\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula04\Exemplo_04\obj\Debug\Exemplo_04.csproj.GenerateResource.cache
+C:\Users\gabri\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula04\Exemplo_04\obj\Debug\Exemplo_04.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula04\Exemplo_04\obj\Debug\Exemplo_04.exe
+C:\Users\gabri\Desktop\github\3SemestreADS\IFACI\IFACI\C#\aula04\Exemplo_04\obj\Debug\Exemplo_04.pdb
