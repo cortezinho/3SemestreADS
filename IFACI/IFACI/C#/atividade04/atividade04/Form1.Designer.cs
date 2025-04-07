@@ -143,14 +143,14 @@
             // 
             // timer2
             // 
-            this.timer2.Interval = 2000;
+            this.timer2.Interval = 1000;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(445, 94);
+            this.pictureBox1.Location = new System.Drawing.Point(543, 121);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(323, 323);
+            this.pictureBox1.Size = new System.Drawing.Size(245, 283);
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);

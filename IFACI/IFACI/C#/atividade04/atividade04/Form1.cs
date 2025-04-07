@@ -14,23 +14,12 @@ namespace atividade04
 {
     public partial class Form1: Form
     {
-        private List<Image> imagensTanque;
         private List<Image> imagensNivel;
-        private int indiceAtualTanque = 0;
         private int indiceAtualNivel = 0;
 
         public Form1()
         {
             InitializeComponent();
-
-            imagensTanque = new List<Image>
-            {
-                Image.FromFile("c:\\imagens\\tanque_umQuinto.png"),
-                Image.FromFile("c:\\imagens\\tanque_doisQuintos.png"),
-                Image.FromFile("c:\\imagens\\tanque_tresQuintos.png"),
-                Image.FromFile("c:\\imagens\\tanque_quatroQuintos.png"),
-                Image.FromFile("c:\\imagens\\tanque_cheio.png")
-            };
 
             imagensNivel = new List<Image>
             {
@@ -38,7 +27,11 @@ namespace atividade04
                 Image.FromFile("c:\\imagens\\Dig_2.bmp"),
                 Image.FromFile("c:\\imagens\\Dig_3.bmp"),
                 Image.FromFile("c:\\imagens\\Dig_4.bmp"),
-                Image.FromFile("c:\\imagens\\Dig_5.bmp")
+                Image.FromFile("c:\\imagens\\Dig_5.bmp"),
+                Image.FromFile("c:\\imagens\\Dig_6.bmp"),
+                Image.FromFile("c:\\imagens\\Dig_7.bmp"),
+                Image.FromFile("c:\\imagens\\Dig_8.bmp"),
+                Image.FromFile("c:\\imagens\\Dig_9.bmp"),
             };
         }
 
@@ -87,7 +80,7 @@ namespace atividade04
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            pictureBox1.Image = Image.FromFile("c:\\imagens\\tanque_vazio.png");
+            pictureBox1.Image = Image.FromFile("c:\\imagens\\tanqueOff.jpg");
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.Image = Image.FromFile("c:\\imagens\\Dig_0.bmp");
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -99,13 +92,12 @@ namespace atividade04
         {
             timer2.Start();
             button2.Enabled = false;
+            pictureBox1.Image = Image.FromFile("c:\\imagens\\tanqueOn.jpg");
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
         private void timer2_Tick(object sender, EventArgs e)
         {
-            indiceAtualTanque = (indiceAtualTanque + 1) % imagensTanque.Count;
-            pictureBox1.Image = imagensTanque[indiceAtualTanque];
-
             indiceAtualNivel = (indiceAtualNivel + 1) % imagensNivel.Count;
             pictureBox2.Image = imagensNivel[indiceAtualNivel];
         }
@@ -117,17 +109,15 @@ namespace atividade04
             button2.Enabled = true;  
         }
 
+        //botao desligar
         private void button4_Click(object sender, EventArgs e)
         {
             timer2.Stop(); 
 
-            
-            indiceAtualTanque = 0;
             indiceAtualNivel = 0;
 
-            
-            pictureBox1.Image = imagensTanque[indiceAtualTanque];
-            pictureBox2.Image = imagensNivel[indiceAtualNivel];
+            pictureBox1.Image = Image.FromFile("c:\\imagens\\tanqueOff.jpg");
+            pictureBox2.Image = Image.FromFile("c:\\imagens\\Dig_0.bmp");
 
             button2.Enabled = true; 
         }
